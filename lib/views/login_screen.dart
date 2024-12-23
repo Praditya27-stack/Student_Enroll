@@ -31,7 +31,7 @@ class _LoginScreenState extends State<LoginScreen> {
         child: SafeArea(
           child: SingleChildScrollView(
             padding: EdgeInsets.all(24.0),
-            child: Form( // Wrap with Form widget
+            child: Form( 
               key: _formKey,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
